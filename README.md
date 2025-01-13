@@ -1,5 +1,12 @@
 # AXELAR Interchain Tokens Solution (ITS)
 
+<ul>
+<li><a href="## Overview">Overview</a></li>
+<li><a href="## Getting-started">Getting started</a></li>
+</ul>
+
+## Overview
+
 ### The Problem
 
 Moving tokens between different blockchains is currently a complex and often inefficient process. It typically requires the use of specialized bridges, which can introduce inefficiencies and security vulnerabilities.
@@ -41,3 +48,12 @@ ITS provides a streamlined way to create "canonical" versions of your ERC-20 tok
 Interchain Tokens (ITS) represent a significant advancement towards a more interconnected and interoperable blockchain ecosystem. By simplifying cross-chain interactions, ITS empowers developers to build more sophisticated and innovative applications while ensuring security, efficiency, and ease of use.
 
 For more information and documentation, visit the [Interchain Portal](https://docs.axelar.dev/dev/send-tokens/interchain-tokens/intro/) or contribute to our open-source repository!
+
+---
+## Getting started
+<ul>
+<li><a href="#No-Code">Create a new Interchain token</a></li>
+<li><a href="#Create-New-Token">Programmatically Create New Interchain Token</a></li>
+<li><a href="#Register-Existing-Token">Make an existing ERC-20 token an Interchain Token</a></li>
+<li><a href="#Interchain-Portal">Check out the Interchain Portal</a></li>
+</ul>
