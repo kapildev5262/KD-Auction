@@ -1,8 +1,8 @@
 # AXELAR Interchain Tokens Solution (ITS)
 
 <ul>
-<li><a href="##Overview">Overview</a></li>
-<li><a href="##Getting-started">Getting started</a></li>
+<li><a href="#Overview">Overview</a></li>
+<li><a href="#Getting-started">Getting started</a></li>
 </ul>
 
 ## Overview
