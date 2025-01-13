@@ -2,7 +2,6 @@
 
 <ul>
 <li><a href="#Overview">Overview</a></li>
-<li><a href="#Getting-started">Getting started</a></li>
 <li><a href="#No-Code-ITS-Portal">Create a new Interchain token</a></li>
 <li><a href="#Create-New-Token">Programmatically Create New Interchain Token</a></li>
 <li><a href="#Register-Existing-Token">Make an existing ERC-20 token an Interchain Token</a></li>
@@ -202,7 +201,7 @@ npm i @axelar-network/interchain-token-service
 ```
 ## Register Your Token as a Canonical Token
 
-To register your existing token as a **Canonical Interchain Token**, use the `registerCanonicalInterchainToken` function:
+To register your existing token as a **Canonical Interchain Token**, use the [`registerCanonicalInterchainToken`](https://github.com/axelarnetwork/interchain-token-service/blob/main/contracts/InterchainTokenFactory.sol#L240) function:
 
 ```solidity
 bytes32 tokenId = its.registerCanonicalInterchainToken(
@@ -212,7 +211,7 @@ bytes32 tokenId = its.registerCanonicalInterchainToken(
 ### Key Details:
 - **Canonical Token Address**: The address of your existing token on its home chain.
 
-### The `registerCanonicalInterchainToken` function:
+### The [`registerCanonicalInterchainToken`](https://github.com/axelarnetwork/interchain-token-service/blob/main/contracts/InterchainTokenFactory.sol#L240) function:
 - Deploys a **Lock/Unlock Token Manager** on the source chain.
 - Connects the token to ITS upon deployment.
 - Returns a **unique token ID**.
