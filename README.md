@@ -3,7 +3,7 @@
 <ul>
 <li><a href="#Overview">Overview</a></li>
 <li><a href="#Getting-started">Getting started</a></li>
-<li><a href="#No-Code-(ITS-Portal)">Create a new Interchain token</a></li>
+<li><a href="#No-Code-ITS-Portal">Create a new Interchain token</a></li>
 <li><a href="#Create-New-Token">Programmatically Create New Interchain Token</a></li>
 <li><a href="#Register-Existing-Token">Make an existing ERC-20 token an Interchain Token</a></li>
 <li><a href="#Interchain-Portal">Check out the Interchain Portal</a></li>
@@ -56,7 +56,7 @@ For more information and documentation, visit the [Interchain Portal](https://do
 ---
 
 
-## No-Code (ITS Portal)
+## No-Code ITS Portal
 
 The quickest way to explore and deploy interchain tokens is with Axelar’s **no-code frontend portal**.  
 [**Click here for the testnet**](#)
