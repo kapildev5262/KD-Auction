@@ -174,13 +174,6 @@ bytes32 tokenId = its.deployRemoteInterchainToken{value: msg.value}(
 This function deploys a remote interchain token on the specified destination chain and returns a **token ID**.
 
 ---
-geable to the destination chain, and returns a token ID.   <-----------------
-ChatGPT said:
-ChatGPT
-Here’s the content formatted in proper README.md code format:
-
-markdown
-Copy code
 # Register Existing Token
 
 If you own an ERC-20 token on a single chain and want a wrapped, bridgeable version on other chains, you can register it as a **Canonical Interchain Token** using the **Interchain Token Factory** contract. Each token can only be registered once as a canonical token on its “home chain.”
