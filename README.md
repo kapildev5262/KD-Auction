@@ -146,10 +146,10 @@ bytes32 tokenId = its.deployInterchainToken(
 ### Key Details:
 - **Salt:** A unique value to ensure the token deployment is unique.
 - **Token Name:** The name of your token (e.g., "My Interchain Token").
-**- Token Symbol:** The ticker symbol for your token (e.g., "ITS").
-**- Decimals:** The number of decimals your token will use.
-**- Initial Supply:** The initial amount of tokens to be minted.
-**- Recipient Address:** The address that will receive the initially minted tokens.
+- **Token Symbol:** The ticker symbol for your token (e.g., "ITS").
+- **Decimals:** The number of decimals your token will use.
+- **Initial Supply:** The initial amount of tokens to be minted.
+- **Recipient Address:** The address that will receive the initially minted tokens.
 This function deploys an interchain token, connects it to ITS upon deployment, and returns a **unique token ID**.
 
 ---
@@ -167,9 +167,9 @@ bytes32 tokenId = its.deployRemoteInterchainToken{value: msg.value}(
 );
 ```
 ### Key Details:
-**- Original Chain Name:** The name of the chain where the token was originally deployed (e.g., "Ethereum").
-**- Salt:** The same unique value used during the initial deployment.
-**- Recipient Address:** The address on the destination chain that will receive the tokens.
-**- Destination Chain Name:** The chain where the token will be deployed (e.g., "Avalanche").
-**- Gas Value:** The gas amount required for token deployment on the destination chain.
+- **Original Chain Name:** The name of the chain where the token was originally deployed (e.g., "Ethereum").
+- **Salt:** The same unique value used during the initial deployment.
+- **Recipient Address:** The address on the destination chain that will receive the tokens.
+- **Destination Chain Name:** The chain where the token will be deployed (e.g., "Avalanche").
+- **Gas Value:** The gas amount required for token deployment on the destination chain.
 This function deploys a remote interchain token on the specified destination chain and returns a **token ID**.
