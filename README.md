@@ -57,3 +57,63 @@ For more information and documentation, visit the [Interchain Portal](https://do
 <li><a href="#Register-Existing-Token">Make an existing ERC-20 token an Interchain Token</a></li>
 <li><a href="#Interchain-Portal">Check out the Interchain Portal</a></li>
 </ul>
+---
+
+## No-Code (ITS Portal)
+
+The quickest way to explore and deploy interchain tokens is with Axelar’s **no-code frontend portal**.  
+[**Click here for the testnet**](#)
+
+---
+
+### Portal Overview
+
+The ITS portal provides two main paths for working with interchain tokens:
+
+1. **Deploy a New Token**: Create a fresh token available on multiple blockchains at once.  
+2. **Connect an Existing Token**: Link an already deployed token to the Interchain Token Standard (ITS) and enable it for cross-chain functionality.
+
+Once integrated, you can deploy additional interchain tokens to other blockchains, making them bridgeable with your existing token.
+
+---
+
+### Deploy New Token
+
+To deploy a new token:
+
+1. **Connect your wallet**.  
+2. **Select a source network** where you have sufficient funds.  
+3. Click **Deploy a new Interchain Token**.  
+4. Provide the following details for your new token:
+   - **Token Name**: Name of the new token.
+   - **Symbol**: Symbol of the token (e.g., `MYT`).
+   - **Decimals**: Number of decimal places the token supports.
+   - **Amount to Mint**: Initial supply of the token to be minted.
+   - Optionally, you can mark the token as **mintable**, allowing the minter to mint new tokens in the future.  
+5. **Select additional chains** where the token will be available. Optionally, specify the amount of the token to mint on each selected chain.  
+6. If your wallet has sufficient funds, the token will be deployed and made available on all selected chains.
+
+The deployed token will comply with the **Interchain Token Standard (ITS)**, enabling users to call the `interchainTransfer()` method to move tokens between blockchains seamlessly.
+
+---
+
+### Connect Existing Token
+
+To connect an existing token:
+
+1. **Connect your wallet**.  
+2. **Select a source network** where your token resides and ensure you have sufficient funds.  
+3. Paste the **address of the token** you want to connect to ITS.  
+4. Click the **Register interchain token** button.  
+5. **Select additional chains** where the token will be available.
+
+Once registered, the system will:
+
+- Set up a **lock/unlock Token Manager** for your custom token on the home chain.  
+- Deploy a **native interchain token** on the remote chains you selected.  
+
+These actions ensure your token is now fully integrated with ITS and ready for seamless cross-chain operations.
+
+---
+
+With the **ITS Portal**, you can easily create and manage tokens without writing code, streamlining the process of building interoperable blockchain solutions.
