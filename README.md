@@ -1,18 +1,18 @@
 # AXELAR Interchain Tokens Solution (ITS)
 
-## The Problem
+### The Problem
 
 Moving tokens between different blockchains is currently a complex and often inefficient process. It typically requires the use of specialized bridges, which can introduce inefficiencies and security vulnerabilities.
 
 ---
 
-## The Solution: Interchain Tokens (ITS)
+### The Solution: Interchain Tokens (ITS)
 
 ITS provides a streamlined way to create "canonical" versions of your ERC-20 token that exist seamlessly across multiple blockchains. With ITS, you gain a unified representation of your token, no matter which chain you're interacting with.
 
 ---
 
-## Key Features
+### Key Features
 
 - **Cross-chain Compatibility**: Effortlessly move tokens between supported blockchains.
 - **Single Address**: Manage all versions of your token using a single Ethereum address.
@@ -22,7 +22,7 @@ ITS provides a streamlined way to create "canonical" versions of your ERC-20 tok
 
 ---
 
-## Benefits
+### Benefits
 
 - **Improved Interoperability**: Seamlessly move value and assets across different blockchain ecosystems.
 - **Increased Efficiency**: Simplify token management and reduce the complexity of cross-chain transactions.
@@ -30,13 +30,13 @@ ITS provides a streamlined way to create "canonical" versions of your ERC-20 tok
 - **Developer-friendly**: Easy-to-use tools and APIs for quick integration of Interchain Tokens into your applications.
 
 ---
-## Key ITS Contract Addresses
+### Key ITS Contract Addresses
 
 - **Interchain Token Service**: [0xB5FB4BE02232B1bBA4dC8f81dc24C26980dE9e3C](https://etherscan.io/address/0xB5FB4BE02232B1bBA4dC8f81dc24C26980dE9e3C)
 - **Interchain Token Factory**: [0x83a93500d23Fbc3e82B410aD07A6a9F7A0670D66](https://etherscan.io/address/0x83a93500d23Fbc3e82B410aD07A6a9F7A0670D66)
 
 ---
-## In Summary
+### In Summary
 
 Interchain Tokens (ITS) represent a significant advancement towards a more interconnected and interoperable blockchain ecosystem. By simplifying cross-chain interactions, ITS empowers developers to build more sophisticated and innovative applications while ensuring security, efficiency, and ease of use.
 
