@@ -5,7 +5,7 @@
 <li><a href="#No-Code-ITS-Portal">Create a new Interchain token</a></li>
 <li><a href="#Create-New-Token">Programmatically Create New Interchain Token</a></li>
 <li><a href="#Register-Existing-Token">Make an existing ERC-20 token an Interchain Token</a></li>
-<li><a href="#[Interchain-Portal](https://interchain.axelar.dev/)">Check out the Interchain Portal</a></li>
+<li><a href="(https://interchain.axelar.dev/)">Check out the Interchain Portal</a></li>
 </ul>
 
 ## Overview
