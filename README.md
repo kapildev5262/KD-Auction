@@ -1,6 +1,3 @@
-# KD-Auction
-KD&amp;Auction is a decentralized auction platform on the Ethereum blockchain. It enables users to create auctions, place bids, and finalize outcomes securely and transparently using smart contracts, ensuring fairness and eliminating intermediaries.
-
 # AXELAR Interchain Tokens Solution (ITS)
 
 ## The Problem
@@ -33,7 +30,12 @@ ITS provides a streamlined way to create "canonical" versions of your ERC-20 tok
 - **Developer-friendly**: Easy-to-use tools and APIs for quick integration of Interchain Tokens into your applications.
 
 ---
+## Key ITS Contract Addresses
 
+- **Interchain Token Service**: `0xB5FB4BE02232B1bBA4dC8f81dc24C26980dE9e3C`
+- **Interchain Token Factory**: `0x83a93500d23Fbc3e82B410aD07A6a9F7A0670D66`
+
+---
 ## In Summary
 
 Interchain Tokens (ITS) represent a significant advancement towards a more interconnected and interoperable blockchain ecosystem. By simplifying cross-chain interactions, ITS empowers developers to build more sophisticated and innovative applications while ensuring security, efficiency, and ease of use.
