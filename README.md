@@ -248,5 +248,3 @@ For support, please open an issue in the repository or contact the development t
 This smart contract is provided as-is. Users should conduct their own security audit before using in production.
 
 ## Thank you!
-
-Thanks to all contributors who have helped make this project better!
